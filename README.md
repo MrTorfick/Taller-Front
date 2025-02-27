@@ -2,6 +2,13 @@
 
 🚀 **Taller de Desarrollo Frontend** – ORT Uruguay  
 
+## 🎓 Proyecto Académico  
+
+Este proyecto fue desarrollado con **fines académicos** como parte del **Taller de Desarrollo Frontend** en ORT Uruguay.  
+
+Los requisitos, estructura del código y decisiones de implementación fueron diseñados en base a las especificaciones proporcionadas por la universidad.  
+
+
 ## 📌 Descripción  
 
 Este proyecto es una aplicación web desarrollada con **React**, **Redux** y **React Router** para la gestión de sesiones de ejercicio. Permite a los usuarios registrar sus actividades físicas, visualizar estadísticas y analizar su progreso mediante gráficos interactivos.  
