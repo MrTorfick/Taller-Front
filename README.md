@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# 🏋️ Aplicación de Gestión de Registro de Ejercicios  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 **Taller de Desarrollo Frontend** – ORT Uruguay  
 
-## Available Scripts
+## 📌 Descripción  
 
-In the project directory, you can run:
+Este proyecto es una aplicación web desarrollada con **React**, **Redux** y **React Router** para la gestión de sesiones de ejercicio. Permite a los usuarios registrar sus actividades físicas, visualizar estadísticas y analizar su progreso mediante gráficos interactivos.  
 
-### `npm start`
+## 📑 Funcionalidades  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ **Registro y Autenticación**  
+- Creación de cuenta con usuario, contraseña y país de residencia.  
+- Auto-login y persistencia de sesión con `localStorage`.  
+- Inicio y cierre de sesión seguro con token de autenticación.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ **Dashboard Interactivo**  
+- **Registro de ejercicios**: Agregar actividad, tiempo y fecha.  
+- **Listado de sesiones** con iconos representativos.  
+- **Eliminación de registros** con actualización en tiempo real.  
+- **Filtrado** por última semana, último mes o historial completo.  
 
-### `npm test`
+✅ **Estadísticas y Análisis**  
+- **Tiempo total** acumulado en ejercicios.  
+- **Tiempo diario** registrado.  
+- **Gráficos dinámicos**:  
+  - Sesiones por actividad.  
+  - Minutos ejercitados en los últimos 7 días.  
+  - Evolución personal con mensajes motivadores.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tecnologías Utilizadas  
 
-### `npm run build`
+- **React** (interfaz de usuario)  
+- **Redux** (manejo de estado global)  
+- **React Router** (navegación entre secciones)  
+- **react-chartjs-2** (gráficos interactivos)  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
